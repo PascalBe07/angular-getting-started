@@ -1,27 +1,18 @@
 # AngularGettingStarted
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+Dies ist ein Testprojekt, um mit Angular zu starten.
+Zu implementierende Tasks befinden sich im todos Ordner.
 
-## Development server
+## Benötigte Commands
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Anwendung laufen lassen:
 
-## Code scaffolding
+`npm run start` oder `npm start`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Fake Backend laufen lassen:
 
-## Build
+Zum Üben von REST API Aufrufen, ist das npm Paket `json-server` in der package.json. Dieses stellt eine REST API lokal bereit gegen die die Angular App dann Requests stellen kann.
+Die Daten, die über die Fake API bereitgestellt werden sind in der Datei `backend-data.json` zu sehen. 
+Das Backend lässt sich über das entsprechende Skript in der package.json starten:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`npm run start-backend`

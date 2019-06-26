@@ -1,0 +1,104 @@
+{
+    "employees": [
+        {
+            "guid": "d558ad58-d920-4dfc-8fac-bc843dc9a49d",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 31,
+            "name": "Kristi Tucker",
+            "gender": "female",
+            "email": "kristitucker@telequiet.com",
+            "phone": "+1 (920) 521-2383",
+            "address": "502 Kaufman Place, Glendale, Minnesota, 5242",
+            "tags": [
+                "pariatur",
+                "commodo",
+                "voluptate",
+                "cupidatat",
+                "excepteur",
+                "irure",
+                "dolor"
+            ]
+        },
+        {
+            "guid": "5c027070-4bd3-41c6-81fc-fb794e60eecf",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "name": "Jaclyn Combs",
+            "gender": "female",
+            "email": "jaclyncombs@telequiet.com",
+            "phone": "+1 (814) 438-2244",
+            "address": "500 Nixon Court, Freetown, Georgia, 1052",
+            "tags": [
+                "occaecat",
+                "reprehenderit",
+                "reprehenderit",
+                "commodo",
+                "magna",
+                "dolor",
+                "veniam"
+            ]
+        },
+        {
+            "guid": "7f03c510-b95e-4e62-8377-5adac89f78c2",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 26,
+            "name": "Silvia Dennis",
+            "gender": "female",
+            "email": "silviadennis@telequiet.com",
+            "phone": "+1 (883) 554-3390",
+            "address": "639 Macdougal Street, Ladera, Louisiana, 1612",
+            "tags": [
+                "anim",
+                "dolor",
+                "eu",
+                "duis",
+                "duis",
+                "ex",
+                "aliquip"
+            ]
+        },
+        {
+            "guid": "8c446d9f-4e34-42ef-8b43-54b0bd6452a4",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 31,
+            "name": "Hoffman Dickson",
+            "gender": "male",
+            "email": "hoffmandickson@telequiet.com",
+            "phone": "+1 (932) 544-2476",
+            "address": "357 Bulwer Place, Ticonderoga, Northern Mariana Islands, 2586",
+            "tags": [
+                "cupidatat",
+                "sunt",
+                "commodo",
+                "aliqua",
+                "culpa",
+                "qui",
+                "laborum"
+            ]
+        },
+        {
+            "guid": "5432b2f1-f58c-4152-8fd0-c0aad1655ade",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 37,
+            "name": "Francesca Rasmussen",
+            "gender": "female",
+            "email": "francescarasmussen@telequiet.com",
+            "phone": "+1 (901) 591-3429",
+            "address": "213 Seeley Street, Southview, Rhode Island, 5705",
+            "tags": [
+                "sint",
+                "officia",
+                "adipisicing",
+                "tempor",
+                "fugiat",
+                "ea",
+                "dolore"
+            ]
+        }
+    ]
+}
