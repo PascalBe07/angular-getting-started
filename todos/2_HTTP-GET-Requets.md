@@ -6,6 +6,7 @@ Angular bietet einen HTTP-Client an, über den man REST Schnittstellen (wie unse
 
 Der nächste Schritt wäre nun die Fake API so anzubinden, dass wir die Daten im Frontend zur Verfügung haben. Eine minimale Visualisierung (als JSON) ist schon implementiert.
 Die kann vorerst bestehen bleiben. Es soll hier der `employees` Endpunkt der Fake API angebunden werden.
+Damit dies funktioniert, muss natürlich das Fake Backend gestartet sein lokal.
 
 AKs:
 * Employee Interface erstellt, dass die Struktur der Backend Daten widerspiegelt (guid, isActive, ...) (--> siehe backend-data.json)

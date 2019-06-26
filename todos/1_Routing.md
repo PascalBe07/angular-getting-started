@@ -5,6 +5,7 @@
 ## Aufgabe
 
 Der erste Schritt wäre, die bestehende Create-Komponente in den Anwendung aufzunehmen. Der Inhalt der Create-Komponente ist erstmal uninteressant.
+Die Router-Konfiguration befindet sich im app-routing Modul.
 
 AKs:
 * Die Create Komponente soll unter dem URL-Pfad `create` angezeigt werden
