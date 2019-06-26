@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ReadBackendService } from '../read-backend.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public employeesObservable: Observable<any[]>;
+
+  constructor(private readService: ReadBackendService) { }
 
   ngOnInit() {
+    this.employeesObservable = this.readService.getEmployees();
   }
 
 }
